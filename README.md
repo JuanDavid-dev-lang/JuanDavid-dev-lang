@@ -67,15 +67,11 @@
 
 ---
 
-## 🐍 Actividad
+## 📈 Actividad
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuanDavid-dev-lang/JuanDavid-dev-lang/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuanDavid-dev-lang/JuanDavid-dev-lang/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/JuanDavid-dev-lang/JuanDavid-dev-lang/output/github-snake.svg" />
-</picture>
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=JuanDavid-dev-lang&bg_color=0d1117&color=3fb950&line=2ea043&point=ffffff&area=true&area_color=1a4731&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -108,43 +104,8 @@ $ whoami
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=JuanDavid-dev-lang.JuanDavid-dev-lang&color=2ea043&labelColor=0d1117)
 
-*"Nunca habra revolucion sin evolucion de Conciencia."*
+*"Nunca habra revolucion sin evolucíon de conciencias."*
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,50:1a4731,100:0d1117&height=100&section=footer" width="100%"/>
-
----
-
-<details>
-<summary>⚙️ Cómo activar la animación de serpiente</summary>
-
-Crea el archivo `.github/workflows/snake.yml` en este repositorio con este contenido:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
