@@ -108,7 +108,7 @@ $ whoami
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=JuanDavid-dev-lang.JuanDavid-dev-lang&color=2ea043&labelColor=0d1117)
 
-*"El código no miente — los comentarios a veces sí."*
+*"Nunca habra revolucion sin evolucion de Conciencia."*
 
 </div>
 
